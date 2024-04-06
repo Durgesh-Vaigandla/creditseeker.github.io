@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: end;
+
+    gap: 25px;
+}
+
+li{
+    gap: 25px;
+}
+
+.home,.about,.department{
+    display: flex;
+}
+
+.home p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding: 150px;
+    margin: 15px;
+    font-weight: bolder;
+}
+
+.about p{
+    font-size: larger;
+    padding: 100px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+}
+
+.about img{
+    width: auto;
+    height: 500px;
+} 
+
+#depinput{
+    margin: 200px;
+    padding: 50px;
+}
+#marksin{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+label{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 50%;
+}
