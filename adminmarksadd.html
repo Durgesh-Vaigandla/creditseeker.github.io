@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Subject Marks</title>
+        <link rel="stylesheet" href="adminmarksadd.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Subject Marks</h1>
+            <form id="marksForm">
+                <label for="regNumber">Registered Number:</label>
+                <input type="text" id="regNumber" name="regNumber" required>
+
+                <label for="semester">Semester:</label>
+                <input type="number" id="semester" name="semester" min="1"
+                    required>
+
+                <button type="submit">Get Subjects</button>
+            </form>
+
+            <div id="subjectList" class="subject-list"></div>
+            <button type="submit">Submit Marks</button>
+        </div>
+
+        <script src="adminmarksadd.js"></script>
+    </body>
+</html>

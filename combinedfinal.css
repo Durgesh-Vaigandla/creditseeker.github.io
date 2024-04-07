@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculate-marks {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.add-admin-marks {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
